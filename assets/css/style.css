@@ -685,7 +685,7 @@ section {
   /* Active Tab Styling */
   .feature-mobile-only .nav-link.active {
     color: #0072e4;
-    font-weight: 600;
+    font-weight: 500;
   }
 
   /* Active Tab Bottom Indicator */
