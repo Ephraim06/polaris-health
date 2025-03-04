@@ -67,7 +67,14 @@
       <div class="container d-flex">
         <div class="logo mr-auto">
           <h1 class="text-light">
-            <a href="index.html"><span>Polaris Health</span></a>
+            <a href="index.html"
+              ><i
+                style="font-size: 30px; color: #0072e4"
+                class="fi fi-ss-capsules mr-2"></i
+              ><span style="font-size: 1.3rem" class="text-black"
+                >POLARIS</span
+              ></a
+            >
           </h1>
           <!-- Uncomment below if you prefer to use an image logo -->
           <!-- <a href="index.html"
@@ -170,12 +177,12 @@
                   <i
                     style="font-size: 4rem; color: #0072e4"
                     class="fi fi-ss-capsules"></i>
-                  <h3>Made just for you.</h3>
-                  <p>
+                  <h3 class="text-start">Made just for you</h3>
+                  <p class="text-start">
                     Our medication and supplement packs are designed just for
                     you.
                   </p>
-                  <p>
+                  <p class="text-start">
                     Our team of expert pharmacists will pack your medicine
                     according to your prescription. And they’ll hand pick only
                     the highest-quality, clinically appropriate supplements that
@@ -301,39 +308,42 @@
       <!-- End Features Section -->
 
       <!-- ======= Mobile Features Section (Only for Mobile) ======= -->
-      <section id="feature-mobile-only" class="feature-mobile-only">
+      <section
+        id="feature-mobile-only"
+        data-aos="zoom-in"
+        data-aos-delay="200"
+        class="feature-mobile-only">
         <div class="container">
           <!-- Tabs as Buttons -->
           <ul class="nav nav-tabs justify-content-center" role="tablist">
-
             <div class="row">
               <div class="col">
-               <li class="nav-item" role="presentation">
-              <button
-                class="nav-link active"
-                id="mobile-tab1"
-                data-bs-toggle="tab"
-                data-bs-target="#mobile-content1"
-                type="button"
-                role="tab">
-                Packed and Delivered
-              </button>
-            </li>
-            </div>
-           
-            <div class="col">
-              <li class="nav-item" role="presentation">
-              <button
-                class="nav-link"
-                id="mobile-tab2"
-                data-bs-toggle="tab"
-                data-bs-target="#mobile-content2"
-                type="button"
-                role="tab">
-                Personalize Your Supplement Routine
-              </button>
-               </li>
-            </div>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link active"
+                    id="mobile-tab1"
+                    data-bs-toggle="tab"
+                    data-bs-target="#mobile-content1"
+                    type="button"
+                    role="tab">
+                    Packed and Delivered
+                  </button>
+                </li>
+              </div>
+
+              <div class="col">
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="mobile-tab2"
+                    data-bs-toggle="tab"
+                    data-bs-target="#mobile-content2"
+                    type="button"
+                    role="tab">
+                    Personalize Your Supplement Routine
+                  </button>
+                </li>
+              </div>
             </div>
             <!-- <li class="nav-item" role="presentation">
               <button
@@ -357,13 +367,12 @@
                 Nostrum Qui Quasi
               </button>
             </li> -->
-            </li>
           </ul>
 
           <!-- Tab Content -->
           <div class="tab-content mt-3">
             <div
-              class="tab-pane fade show active"
+              class="tab-pane fade show active text-start"
               id="mobile-content1"
               role="tabpanel">
               <figure>
@@ -380,22 +389,46 @@
               <p>No more forgetting, no more errors, delivered to your door.</p>
             </div>
 
-            <div class="tab-pane fade" id="mobile-content2" role="tabpanel">
+            <div
+              class="tab-pane fade text-start"
+              id="mobile-content2"
+              role="tabpanel">
               <figure>
                 <img
                   src="assets/img/woman.svg"
                   alt="Personalize Your Routine"
                   class="img-fluid rounded" />
               </figure>
-              <p><i class="fi fi-rr-user"></i> Tell us about yourself.</p>
-              <p>
-                <i class="fi fi-rr-capsules"></i> Our clinical experts will
-                suggest a supplement routine backed by science.
-              </p>
-              <p>
-                <i class="fi fi-rr-brightness"></i> Adapt your routine as your
-                health and goals change.
-              </p>
+              <div class="row">
+                <div class="col mobile-features-icon">
+                  <i class="fi fi-rr-user"></i>
+                </div>
+                <div class="col">
+                  <p>Tell us about yourself.</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col mobile-features-icon">
+                  <i class="fi fi-rr-capsules"></i>
+                </div>
+                <div class="col">
+                  <p>
+                    Our clinical experts will suggest a supplement routine
+                    backed by science.
+                  </p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col mobile-features-icon">
+                  <i class="fi fi-rr-brightness"></i>
+                </div>
+                <div class="col">
+                  <p>Adapt your routine as your health and goals change.</p>
+                </div>
+              </div>
+              <a href="https://wa.link/xr6vk5" class="btn-enquire-features mt-5"
+                >Enquire Now</a
+              >
             </div>
 
             <div class="tab-pane fade" id="mobile-content3" role="tabpanel">
@@ -429,12 +462,15 @@
       <section id="services" class="services section-bg">
         <div class="container">
           <div class="section-title" data-aos="fade-up">
-            <h2>Services</h2>
-            <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-              Quia fugiat sit in iste officiis commodi quidem hic quas.
+            <h2 class="text-start">By your side</h2>
+            <img
+              src="assets/img/notifications.svg"
+              alt="chat"
+              class="img-fluid rounded" />
+            <p class="text-start">
+              Getting your medication and supplements is only the first step.
+              We’ll nudge you and keep you on top of your treatment plan and
+              health goals.
             </p>
           </div>
 
