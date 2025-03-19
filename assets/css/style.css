@@ -16,6 +16,13 @@
     align-items: center !important;
     justify-content: center !important;
   }
+
+  .shop-by-health-focus {
+    width: 400px !important;
+    z-index: 1 !important;
+    position: relative;
+    margin-left: -18px !important;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -55,8 +62,8 @@ h5,
 h6 {
   font-family: "Lora",
     serif !important;
-    font-weight: 600 !important;
-    color: #000 !important;
+  font-weight: 600 !important;
+  color: #000 !important;
 }
 
 .wellness-text {
@@ -704,30 +711,66 @@ section {
     transition: width 0.3s ease-in-out;
   }
 
-  .fi {
+  .fi-rr-user {
     color: #0072e4 !important;
     font-weight: 900;
     font-size: xx-large;
+  }
+
+  .fi-rr-capsules {
+    color: #0072e4 !important;
+    font-weight: 900;
+    font-size: xx-large;
+  }
+
+  .fi-rr-brightness {
+    color: #0072e4 !important;
+    font-weight: 900;
+    font-size: xx-large;
+  }
+
+  .fi-rr-box-alt {
+    color: #0072e4 !important;
+    font-weight: 900;
+    font-size: xx-large;
+  }
+
+  .fi-rr-assessment {
+    color: #0072e4 !important;
+    font-weight: 900;
+    font-size: xx-large;
+  }
+
+  .fi-rr-check-circle {
+    color: #0072e4 !important;
+    font-weight: 900;
+    font-size: xx-large;
+  }
+
+  .fi-rr-angle-right {
+    color: #0072e4 !important;
+    font-weight: 900;
+    font-size: x-small;
   }
 
   .mobile-features-icon {
     margin-right: -270px;
   }
 
-    .btn-enquire-features {
-      font-family: "Montserrat", serif !important;
-      font-weight: 600;
-      font-size: 13px;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      padding: 12px 28px;
-      border-radius: 50px;
-      transition: 0.5s;
-      color: #333;
-      border: 3px solid #0072e4;
-      background: #fff;
-      text-decoration: none !important;
-    }
+  .btn-enquire-features {
+    font-family: "Montserrat", serif !important;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 12px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #333;
+    border: 3px solid #0072e4;
+    background: #fff;
+    text-decoration: none !important;
+  }
 
   /* Tab Content Styling */
   .feature-mobile-only .tab-content {
@@ -774,9 +817,9 @@ section {
     animation: fade-in 0.3s ease-in-out;
   }
 
-    #features {
-      display: none !important;
-    }
+  #features {
+    display: none !important;
+  }
 }
 
 /*--------------------------------------------------------------
